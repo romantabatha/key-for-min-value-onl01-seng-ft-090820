@@ -4,10 +4,12 @@
 require "pry" 
 
 def key_for_min_value(name_hash)
-  name_hash.collect do |key, value|
+ lowest_key = nil 
+ lowest_value = nil
+  name_hash.each do |key, value|
     
+    binding.pry
   end
-binding.pry
 end
 
 # def key_for_min_value(name_hash)
